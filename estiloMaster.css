@@ -21,7 +21,8 @@ header .top{
 }
 
 header .plantasInferior{
-    margin-left: 25.95%;
+    margin-left: 25.91%;
+    margin-bottom: 1px;
     width: 250px;
 }
 
@@ -48,13 +49,12 @@ header .cajaBotones img{
 
 .piso3{
     background-color: #ffffff;
-    width: 100%;
 }
 
 .piso3 h1{
     color: #6BB7D1;
     font-size: 100px;
-    margin-left: 40%;
+    margin-left: 25%;
     line-height: 0px;
 }
 
@@ -83,6 +83,16 @@ header .cajaBotones img{
     width: 300px;
 }
 
+.piso3 .hojaSuperior{
+    width: 250px;
+    height: 150px;
+}
+
+.piso3 .hojaInferior{
+    width: 300px;
+    height: 200px;
+}
+
 .piso2 .head{
     margin-left: 10%;
     margin-right: 10%;
@@ -107,9 +117,20 @@ header .cajaBotones img{
 
 .piso2 p{
     text-align: center;
-    margin-left: 22%;
+    margin-left: 1%;
     font-size: 25px;
     margin-right: 22%;
+}
+
+.piso2 .hojaSuperior{
+    height: 200px;
+    width: 300px;
+}
+
+.piso2 .hojaInferior{
+    margin-top: 150px;
+    height: 220px;
+    width: 310px;
 }
 
 .piso1 .head{
@@ -136,14 +157,12 @@ header .cajaBotones img{
 
 .piso1 p{
     text-align: center;
-    margin-left: 22%;
     font-size: 25px;
     margin-right: 22%;
 }
 
 .piso1 .textoFinal{
     text-align: center;
-    margin-left: 34%;
     font-size: 25px;
     margin-right: 34%;
 }
@@ -151,19 +170,43 @@ header .cajaBotones img{
 .piso1 .conclusion{
     color: #FF85A8;
     text-align: center;
-    margin-left: 34%;
     font-size: 25px;
     margin-right: 34%;
 }
 
 .piso1 .boton{
-    margin-left: 40%;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.piso1 .hojaSuperior1{
+    height: 200px;
+    width: 300px;
+}
+
+.piso1 .hojaSuperior2{
+    height: 200px;
+    width: 300px;
+}
+
+.piso1 .hojaInferior1{
+    -webkit-transform: rotate(-180deg);
+    height: 400px;
     width: 300px;
 }
 
 .ilustracion{
     width: 900px;
     margin-left: 20%;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.video{
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
 
 footer{
