@@ -20,8 +20,15 @@ header .top{
     display: flex;
 }
 
+.contenedorI{
+    width: 100%;
+    display: flex;
+}
+
 header .plantasInferior{
-    margin-left: 26.2%;
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
     margin-bottom: 0px;
     width: 250px;
 }
