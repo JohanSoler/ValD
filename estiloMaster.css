@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+
+.head{
+    background-color: #61cc66;
+}
+
+.logo{
+    margin-left: 27%;
+    width: 600px;
+    
+}
+
+header .top{
+    align-items: center;
+    display: flex;
+}
+
+header .plantasInferior{
+    margin-left: 25.95%;
+    width: 250px;
+}
+
+header .top .plantasSuperior{
+    width: 250px;
+}
+
+header .direccion{
+    margin-left: 40%;
+    width: 250px;
+    margin-bottom: 100px;
+}
+
+header .top .cajaBotones{
+    width: 70px;
+    margin-left: 60%;
+}
+
+header .cajaBotones img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70px;
+}
+
+.piso3{
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.piso3 h1{
+    color: #6BB7D1;
+    margin-left: 45%;
+}
+
+.piso3 h2{
+    color: #FF85A8;
+    margin-left: 37%;
+}
+
+.piso3 p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.piso3 .imagencortada{
+    margin-left: 83%;
+    width: 250px;
+}
+
+.piso3 .ilustracion_1{
+    width: 900px;
+    margin-left: 20%;
+}
